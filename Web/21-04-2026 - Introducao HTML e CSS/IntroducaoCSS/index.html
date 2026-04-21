@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de CSS</title>
+    <style>
+       *{
+         box-sizing: border-box;
+       }
+
+       button{
+           background-color: blue;
+           color: white;
+           font-size: 18px;
+           padding: 10px 20px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+       .botao{
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border: dashed 2px red;
+       }
+       .input{
+           padding: 10px;
+           border: 0px;
+           border-bottom: solid 1px black; 
+           margin: 10px;
+           width: 100%;         
+       }
+       #cadastro{
+           background-color: rgb(255, 255, 255);
+           width: 300px;
+           padding: 20px;
+           border-radius: 10px;
+           box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+       }
+    </style>
+</head>
+<body>
+    <div id="topo">
+        <h1>Aula CSS</h1>
+    </div>
+    <p style="color: blue;font-size: 24px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eos ipsa at magni. Officia cumque autem facere temporibus unde accusantium voluptate tempore, 
+        eveniet deleniti, harum nobis ratione repellat tenetur in?</p>
+
+    <button>Salvar</button>  
+    <button style="background-color: rgb(154, 72, 0);">Cancelar</button>  
+
+    <input class="botao" type="button" value="Salvar" />
+    <br />
+
+    <div id="cadastro">
+        <input type="text" class="input" placeholder="EX:Ana"/>
+        <input type="text" class="input" placeholder="EX:Ana"/>
+        <input type="text" class="input" placeholder="EX:Ana"/>
+        <input type="text" class="input" placeholder="EX:Ana"/>
+    </div>
+    <hr />
+     <p style="font-size: 60px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eligendi sunt asperiores ipsum ad. Id sunt magnam ullam at dolorem adipisci itaque, laudantium nemo quae, cupiditate mollitia explicabo consequuntur enim.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum, at quibusdam dolore molestiae quae possimus libero omnis itaque cupiditate quos veritatis modi nihil, similique alias esse totam doloremque ullam!
+        Lorem
+     </p>
+    <a href="#topo">Topo</a>
+    
+ </body>
+</html>
