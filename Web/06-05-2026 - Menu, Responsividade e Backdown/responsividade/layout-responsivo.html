@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        
+        .column {
+            flex: 25%;
+            padding: 20px;
+        }
+
+
+        @media screen and (max-width: 992px) {
+            .column {
+                flex: 50%;
+            }
+            body{
+                background-color: red;
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Layout Responsivo</h2>
+    <p><strong>Diminua o tamanho da janela do navegador para ver o efeito.</strong></p>
+    <p>Em telas com 992px de largura ou menos, as colunas serão redimensionadas de quatro para duas colunas. Em telas com 600px de largura ou menos, as colunas serão empilhadas uma sobre a outra em vez de serem exibidas lado a lado.</p>
+
+    <div class="container">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Coluna 1</h2>
+            <p>Algum texto...</p>
+        </div>
+
+        <div class="column" style="background-color:#bbb;">
+            <h2>Coluna 2</h2>
+            <p>Algum texto...</p>
+        </div>
+
+        <div class="column" style="background-color:#ccc;">
+            <h2>Coluna 3</h2>
+            <p>Algum texto...</p>
+        </div>
+
+        <div class="column" style="background-color:#ddd;">
+            <h2>Coluna 4</h2>
+            <p>Algum texto...</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

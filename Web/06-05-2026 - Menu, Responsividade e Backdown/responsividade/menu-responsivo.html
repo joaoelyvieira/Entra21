@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2,
+        p {
+            margin: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            display: flex;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: #111111;
+        }
+
+        .menu-btn {
+            display: none;
+            background-color: #333;
+            color: white;
+            border: none;
+            font-size: 28px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 600px) {
+            ul {
+                display: none;
+                flex-direction: column;
+                width: 100vw;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+
+            ul.active {
+                display: block;
+            }
+
+            ul li a {
+                border-top: 1px solid #555;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <button class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </button>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">Notícias</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#about">Sobre</a></li>
+        </ul>
+    </nav>
+
+
+    <h2>Menu de navegação responsivo</h2>
+
+    <p>Quando a tela tem menos de 600px, o menu de navegação será exibido verticalmente em vez de horizontalmente.</p>
+
+    <p><strong>Redimensione a janela do navegador para ver o efeito.</strong></p>
+    <script>
+
+        function toggleMenu() {
+
+            const menu = document.getElementById("menu");
+
+            menu.classList.toggle("active");
+        }
+
+    </script>
+
+</body>
+
+</html>
