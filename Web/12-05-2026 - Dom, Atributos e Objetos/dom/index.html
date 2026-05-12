@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+       <input type="text" id="nome" placeholder="EX: ana" />
+       <input type="text" id="email" placeholder="EX: ana@gmail.com"/>
+
+       <input type="button" value="gravar" onclick="validar()"/>
+    </form>
+    
+
+
+    <script>
+        /*const inputNome = document.getElementById("nome")
+        console.log(inputNome)
+
+        console.log(inputNome.value)
+
+        const inputEmail =  document.getElementById("email")
+        console.log(inputEmail)
+
+        const inputs = document.getElementsByTagName("input")
+        console.log(inputs[0])*/
+
+        function validar(){
+            const inputNome = document.getElementById("nome")
+            if(inputNome.value === ''){
+               alert("O nome deve ser informado!")
+               inputNome.focus()
+               return
+            }
+
+            const inputEmail = document.getElementById("email")
+            if(inputEmail.value === ''){
+               alert("O email deve ser informado!")
+               inputEmail.focus()
+               return
+            }
+           document.getElementsByTagName('form')[0].submit()
+        }
+
+
+    </script>
+</body>
+</html>
