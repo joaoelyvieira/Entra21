@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    padding: 40px 16px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 26px;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #666;
+    margin-bottom: 24px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.btn-voltar {
+    background: #6b7280;
+}
+
+.btn-voltar:hover {
+    background: #4b5563;
+}
+
+.form-box {
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #1a1a1a;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2563eb;
+}
+
+/* Grupo CEP com botão ao lado */
+.cep-group {
+    display: flex;
+    gap: 8px;
+}
+
+.cep-group input {
+    flex: 1;
+}
+
+.btn-cep {
+    width: auto;
+    margin-top: 0;
+    padding: 10px 14px;
+    font-size: 13px;
+    background: #2563eb;
+    white-space: nowrap;
+}
+
+.btn-cep:hover {
+    background: #1d4ed8;
+}
+
+.escondido {
+    display: none;
+}
+
+.tela {
+    margin-top: 10px;
+}
+
+.mensagem-erro {
+    color: #dc2626;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.mensagem-sucesso {
+    color: #16a34a;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.card-cliente {
+    background: white;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-cliente strong {
+    font-size: 15px;
+    color: #1a1a1a;
+}
+
+.detalhes-cliente {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.detalhes-cliente p {
+    font-size: 14px;
+    color: #444;
+    margin: 4px 0;
+}
+
+.detalhes-cliente .label {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-acoes {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.card-acoes button {
+    width: auto;
+    padding: 7px 14px;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.btn-detalhes {
+    background: #6b7280;
+}
+
+.btn-detalhes:hover {
+    background: #4b5563;
+}
+
+.btn-editar {
+    background: #2563eb;
+}
+
+.btn-editar:hover {
+    background: #1d4ed8;
+}
+
+.btn-excluir {
+    background: #dc2626;
+}
+
+.btn-excluir:hover {
+    background: #b91c1c;
+}
+
+.btn-salvar {
+    background: #16a34a;
+}
+
+.btn-salvar:hover {
+    background: #15803d;
+}
+
+.area-edicao {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.area-edicao input {
+    margin-bottom: 8px;
+}
