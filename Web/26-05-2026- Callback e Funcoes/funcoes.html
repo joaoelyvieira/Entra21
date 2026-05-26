@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções com setTimeout</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Trabalhando com funções</h2>
+
+    
+    <button id="btn" style="display: none;" onclick="ola()">
+        Clique
+    </button>
+
+    <h2 id="demo"></h2>
+
+    <script>
+
+        console.log('Olá mundo');
+
+       
+        function ola() {
+
+            console.log('Botão clicado');
+
+            document.getElementById("demo").innerHTML =
+                "Olá de novo!";
+
+        }
+
+        
+        setTimeout(function () {
+
+            document.getElementById("btn").style.display = "block";
+
+            console.log('Botão apareceu');
+
+        }, 3000);
+
+
+       
+
+        function dobro(n1){ 
+            let x = n1 * 2;
+            console.log(x);
+        }
+
+        function dividir(n1, n2){
+            let x = n1 / n2;
+            console.log(x);
+        }
+
+        dobro(10);
+        dividir(100,2);
+
+        function subtrair(n1, n2){
+            let x = n1 - n2;
+            return x;
+        }
+
+        let retorno = subtrair(100,10);
+        console.log(retorno);
+
+        const gravar = function(nome){
+            console.log(`Salvando: ${nome}`);
+        }
+
+        gravar('Ana da Silva');
+
+        const nomeCompleto = function(nome, sobreNome){
+            console.log(`${nome} ${sobreNome}`);
+        }
+
+        nomeCompleto('Ana', 'da Silva');
+
+        const media = (n1,n2) => {
+            let soma = n1 + n2;
+            console.log(soma / 2);
+        }
+
+        media(20,30);
+
+    </script>
+
+</body>
+</html>
