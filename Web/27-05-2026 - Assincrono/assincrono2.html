@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*fetch(`http://viacep.com.br/ws/89012-170/json/`)
+            .then(dados => dados.json())
+            .then(resposta => { console.log(resposta) })
+
+        console.log('ola')*/
+
+        async function carregaLogradouro() {
+            let dados = await fetch(`http://viacep.com.br/ws/89012-170/json/`)
+            let response = await dados.json()
+            console.log(response)
+
+            console.log('ola de novo')
+        }
+
+        carregaLogradouro()
+    </script>
+</body>
+
+</html>
