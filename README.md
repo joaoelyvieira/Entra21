@@ -80,7 +80,8 @@ Mais do que sintaxe e exercícios, este programa está me ensinando algo que nen
 
 - **Disciplina** 
 - **Raciocínio lógico** 
-- **Evolução real** 
+- **Evolução real**
+- **Trabalho em equipe**
 
 ---
 
