@@ -2,7 +2,7 @@
 
 # 🚀 Entra21 — Jornada de Aprendizado
 
-![Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Documentando+cada+passo+da+minha+evolu%C3%A7%C3%A3o+%F0%9F%93%96;Do+zero+ao+desenvolvedor+%F0%9F%92%AA;Consistência+é+o+que+transforma+iniciantes+em+profissionais.)
+![Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Documentando+cada+passo+da+minha+evolu%C3%A7%C3%A3o+%F0%9F%93%96.)
 
 </div>
 
@@ -78,9 +78,9 @@ Entra21/
 
 Mais do que sintaxe e exercícios, este programa está me ensinando algo que nenhum tutorial ensina:
 
-- **Disciplina** — aparecer todos os dias, mesmo quando é difícil
-- **Raciocínio lógico** — resolver problemas do zero, sem copiar solução
-- **Evolução real** — olhar para o código do início e ver o quanto evoluí
+- **Disciplina** 
+- **Raciocínio lógico** 
+- **Evolução real** 
 
 ---
 
@@ -101,5 +101,5 @@ Sou **João Ely Vieira**, estudante de Ciências da Computação pela **FURB** e
 ---
 
 <div align="center">
-  <i>Cada commit aqui é uma prova de que não parei. 💜</i>
+  <i>Cada commit aqui é uma prova de que não parei.</i>
 </div>
